@@ -1,0 +1,11 @@
+[package]
+name = "downloader"
+version = "0.1.0"
+edition = "2021"
+description = "A small Windows desktop frontend for yt-dlp"
+license = "MIT"
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"] }
+rfd = "0.15"
+url = "2.5"
